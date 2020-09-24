@@ -1,0 +1,128 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: lightgreen;
+}
+
+/*todo el fondo*/
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 150%;
+}
+
+#divbody {
+  flex: 1;
+  display: table;
+  height: 100%;
+}
+
+#content {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+}
+
+/*contenedor de entradas de texto y labels*/
+#containerhorizontal {
+  width: 50%;
+}
+
+#container {
+  text-align: center;
+  line-height: 40px;
+  border-radius: 20px;
+  width: 600px;
+  margin: auto;
+  border-style: solid;
+  background-color: #98793b;
+}
+
+/*boton*/
+
+.colr-5 {
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  background: #5abaa7;
+  float: left;
+  margin: 5px;
+  border: 1px;
+  border-style: solid;
+}
+
+#botcargar {
+  border-radius: 10px;
+  width: 110px;
+  height: 40px;
+  background: #ffd8be;
+}
+
+#botguardar {
+  border-radius: 10px;
+  width: 110px;
+  height: 40px;
+  background: #ffd8be;
+}
+
+#botsalir {
+  border-radius: 10px;
+  width: 110px;
+  height: 40px;
+  background: #ffd8be;
+}
+
+.row1 {
+  height: 70px;
+  border: 1px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#divbotones8 {
+  height: 100px;
+  border: 1px;
+  margin: auto;
+  border: 1px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#divespacio {
+  height: 40px;
+  border: 1px;
+  margin: auto;
+}
+
+.fichanegra {
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  background: black;
+  float: left;
+  margin: 5px;
+  border: 1px;
+  border-style: solid;
+}
+
+.fichablanca {
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  background: white;
+  float: left;
+  margin: 5px;
+  border: 1px;
+  border-style: solid;
+}
+
+/*validar el correo*/
+:invalid {
+  box-shadow: 0px 0px 10px 1px red;
+}
