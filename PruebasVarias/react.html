@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <script src="http://unpkg.com/react-dom@16.7.0/umd/react-dom.production.min.js"></script>
+    <script src="http://unpkg.com/react@16.7.0/umd/react.production.min.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      function Hello({ mensaje = "Hola mundo" }) {
+        return React.createElement("h1", null, mensaje);
+      }
+
+      ReactDOM.render(
+        React.createElement("Hello", { mensaje: "Otro mensaje" }),
+        document.getElementById("app")
+      );
+    </script>
+  </body>
+</html>

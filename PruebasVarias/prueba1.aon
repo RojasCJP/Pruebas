@@ -1,0 +1,10 @@
+(
+    <
+    [precio] = 5,
+    [descripcion] = "hola"
+    >,
+    <
+    [precio] = 4,
+    [descripcion] = "adios"
+    >
+)
